@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="ISO 8859-1">
+        <title>Document</title>
+        <link rel="stylesheet" href="style/tabela.css">
+    </head>
+
+    <body>
+        <table>
+            <!-- tag para iniciar a tabela -->
+            <tr>
+                <!-- table row (linha) é a linha da tabela-->
+                <th>Tecnologia</th>
+                <!-- t. head(cabeçalho) é uma coluna de cabeçalho-->
+                <th>Foco</th>
+                <th>Pré-requisitos</th>
+            </tr>
+            <tr>
+                <td>VueJS</td>
+                <!-- t. data (dados) representa os dados da coluna-->
+                <td>FrontEnd</td>
+                <td>Aprender JavaScript e CSS</td>
+            </tr>
+            <tr>
+                <td>NodeJS</td>
+                <td>BackEnd</td>
+                <td>Aprender JavaScript e Lógica de Programação</td>
+            </tr>
+            <tr>
+                <td>MongoDB</td>
+                <td>Banco de Dados</td>
+                <td>Aprender Banco de Dados</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Mesclei Linhas</td>
+                <!--Rowspan ele vai mesclar o elemento da linha de cima com a linha debaixo.-->
+                <td>Linha 1</td>
+            </tr>
+            <tr>
+                <td colspan="2">Linha 2</td>
+                <!-- Colspan tem como função mesclar linhas-->
+                <!--<td>Linha 2 Coluna 2</td>-->
+            </tr>
+        </table>
+    </body>
+</html>
